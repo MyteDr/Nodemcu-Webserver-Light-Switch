@@ -65,7 +65,7 @@ String Html(bool On)
   ptr += "<p class='p'>Light Status:</p>\n";
   ptr += "<p class='p-off'>"+ String(On ? "On" : "Off")+"</p>\n";
   ptr += "</div>\n";
-  ptr += String(On ? "<a class='link' href='/off'>"+ String(On ? "Off" : "On") +"</a>\n" : "<a class='link' href='/on'>"+ String(On ? "Off" : "On") +"</a>\n");
+  ptr += String(On ? "<a class='link' href='/off'>"+ String(On ? "Close" : "Open") +"</a>\n" : "<a class='link' href='/on'>"+ String(On ? "Close" : "Open") +"</a>\n");
   ptr += "</div>\n";
   ptr += "<style>\n";
   ptr += "@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');\n";
