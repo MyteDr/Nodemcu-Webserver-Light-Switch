@@ -1,8 +1,8 @@
 #include <ESP8266WebServer.h>
 #include <ESP8266WiFi.h>
 
-const char* ssid="TP-Link_C92E";
-const char* pass="EWqU4Mxw";
+const char* ssid="*******";
+const char* pass="*******";
 bool state = false;
 ESP8266WebServer server(8080);
 void setup() {
