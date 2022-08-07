@@ -62,10 +62,10 @@ String Html(bool On)
   ptr += "<div class='cont'>\n";
   ptr += "<h1 class='text'>Raven</h1>\n";
   ptr += "<div class='status'>\n";
-  ptr += "<p class='p'>Işık durumu:</p>\n";
-  ptr += "<p class='p-off'>"+ String(On ? "Açık" : "Kapalı")+"</p>\n";
+  ptr += "<p class='p'>Light Status:</p>\n";
+  ptr += "<p class='p-off'>"+ String(On ? "On" : "Off")+"</p>\n";
   ptr += "</div>\n";
-  ptr += String(On ? "<a class='link' href='/off'>"+ String(On ? "Kapat" : "Aç") +"</a>\n" : "<a class='link' href='/on'>"+ String(On ? "Kapat" : "Aç") +"</a>\n");
+  ptr += String(On ? "<a class='link' href='/off'>"+ String(On ? "Off" : "On") +"</a>\n" : "<a class='link' href='/on'>"+ String(On ? "Off" : "On") +"</a>\n");
   ptr += "</div>\n";
   ptr += "<style>\n";
   ptr += "@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');\n";
